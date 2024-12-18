@@ -1,0 +1,9 @@
+llama-index
+llama-index.embeddings.huggingface
+llama-index-readers-file
+llama-index-llms-groq
+arxiv
+llama-index-tools-tavily-research
+crewai
+crewai-tools
+gradio
