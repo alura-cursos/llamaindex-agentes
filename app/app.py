@@ -22,7 +22,7 @@ groq = os.getenv('GROQ_API_KEY')
 tavily_key = os.getenv('tavily')
 nvidia = os.getenv('nvidia')
 
-Settings.llm = Groq(model="llama3-groq-70b-8192-tool-use-preview", api_key=groq)
+Settings.llm = Groq(model="lllama-3.3-70b-versatile", api_key=groq)
 Settings.embed_model = HuggingFaceEmbedding(model_name="intfloat/multilingual-e5-large")
 def consulta_artigos(titulo: str) -> str:
     """
